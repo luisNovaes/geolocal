@@ -5,11 +5,11 @@ const config = {
   name: 'db',
   connector: 'postgresql',
   url: '',
-  host: 'localhost',
-  port: 5432,
-  user: 'postgres',
-  password: 'password',
-  database: 'postgres',
+  host: 'postgresql-68950-0.cloudclusters.net',
+  port: 19353,
+  user: 'root',
+  password: 'ma123456',
+  database: 'geolocal',
 };
 
 @lifeCycleObserver('datasource')
